@@ -86,7 +86,6 @@ if __name__ == "__main__":
                  dim_feedforward=hp.model.dim_feedforward).eval()
 
     # ptflops
-
     macs, params = get_model_complexity_info(model, (500, 345), as_strings=True,
                                              print_per_layer_stat=True, verbose=True)
     print('{:<30}  {:<8}'.format('Computational complexity: ', macs))
