@@ -25,7 +25,7 @@ We chose the DER results at the 2nd iteration step for further comparison with o
 | __EEND-based__ |
 | &emsp; BLSTM-EEND | 12.28 | 14.36 | 19.69 | 26.03 |
 | &emsp; SA-EEND | 4.56 | 4.50 | 3.85 | 9.54 |
-| &emsp; CB-EEND | 2.85 | N/A | N/A | N/A |
+| &emsp; CB-EEND | 2.85 | N/A | N/A | 9.70 |
 | &emsp; RX-EEND | 4.18 | 3.93 | 4.01 | 9.17 |
 | &emsp; EEND-NAA | 2.97 | 2.77 | 3.39 | 7.83 |
 | &emsp; AL-EEND | 4.29 | 4.11 | 4.15 | 8.67 |
