@@ -1,0 +1,29 @@
+gpu_id: 0
+---
+data:
+    data_path: ""
+    sr: 8000
+    chunk_length: 50
+    window: 0.025 #(s)
+    hop: 0.01 #(s)
+    nmels: 23 #Number of mel energies
+    context_size: 7
+    subsampling: 10
+    dimension: 345
+---
+model:
+    n_speakers: 2
+    n_heads: 4
+    hidden_size: 256
+    n_encoder_layers: 4
+    n_decoder_layers: 2
+    dim_feedforward: 2048
+    dropout: 0.1
+    model_path: 'exp/real_EEND.th'
+---
+infer:
+    test_path: './test_audio'
+    chunk_size: 50000
+    label_delay: 0
+    median: 11
+    threshold: 0.5
