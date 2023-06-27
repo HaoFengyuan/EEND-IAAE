@@ -17,7 +17,7 @@ Building upon these pretrained models, we can proceed to train the proposed EEND
 
 We chose the DER results at the 2nd iteration step for further comparison with other different variants of the EEND.
 
-| Method |  <br> $\beta = 2$ | Sim2spk <br> $\beta = 2$ |  <br> $\beta = 2$ | CALLHOME |
+| Method |  <br> $\beta = 2$ | Sim2spk <br> $\beta = 3$ |  <br> $\beta = 5$ | CALLHOME |
 |:-|:-:|:-:|:-:|:-:|
 | __Clustering-based__ |
 | &emsp; i-vector + AHC | 33.73 | 30.93 | 25.96 | 12.10 |
