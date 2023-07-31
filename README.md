@@ -1,13 +1,13 @@
 # End-to-End Neural Speaker Diarization with an Iterative Adaptive Attractor Estimation
 
-This project is the implementation of EEND-IAAE, which has been accepted by Neural Networks. There were two main parts in the proposed IAAE network: an attention-based pooling was designed to obtain a rough estimation of the attractors based on the diarization results of the previous iteration, and an adaptive attractor was then calculated by using transformer decoder blocks.
+This project relates to the implementation of EEND-IAAE, which has been accepted by Neural Networks. There exist two main parts in the proposed IAAE network: an attention-based pooling is designed to obtain a rough estimation of the attractors based on the diarization results of the previous iteration, and an adaptive attractor is then calculated by using transformer decoder blocks.
 
-In this project, the primary basis was the original Chainer implementation of [EEND](https://github.com/hitachi-speech/EEND) and the PyTorch implementation [EEND-Pytorch](https://github.com/Xflick/EEND_PyTorch).
+In this project, the primary basis is the original Chainer implementation of [EEND](https://github.com/hitachi-speech/EEND) and the PyTorch implementation [EEND-Pytorch](https://github.com/Xflick/EEND_PyTorch).
 
-Notably, the project only encompassed the inference phase. For specifics on data preparation, please refer to [there](https://github.com/hitachi-speech/EEND/blob/master/egs/callhome/v1/run_prepare_shared.sh). For details regarding the training phase, please refer to the [there](https://github.com/Xflick/EEND_PyTorch/blob/master/run.sh).
+Notably, the project only encompasses the inference phase. For specifics on data preparation, please refer to [there](https://github.com/hitachi-speech/EEND/blob/master/egs/callhome/v1/run_prepare_shared.sh). For details regarding the training phase, please refer to the [there](https://github.com/Xflick/EEND_PyTorch/blob/master/run.sh).
 
 ## Pretrained Models
-We provided the pretrained SA-EEND trained on simulated data and real datasets respectively.
+We provide the pretrained SA-EEND trained on simulated data and real datasets respectively.
 
 `exp/simu_EEND.th` was trained on Sim2spk with $\beta = 2$, and `exp/real_EEND.th` was adapted on the CALLHOME adaptation set. In the training phase, we basically followed the training protocol described in [the original paper](https://arxiv.org/abs/2003.02966).
 
