@@ -1,6 +1,6 @@
 # End-to-End Neural Speaker Diarization with an Iterative Adaptive Attractor Estimation
 
-This project is the implementation of EEND-IAAE, which has been has been accepted by Neural Networks. There were two main parts in the proposed IAAE network: an attention-based pooling was designed to obtain a rough estimation of the attractors based on the diarization results of the previous iteration, and an adaptive attractor was then calculated by using transformer decoder blocks.
+This project is the implementation of EEND-IAAE, which has been accepted by Neural Networks. There were two main parts in the proposed IAAE network: an attention-based pooling was designed to obtain a rough estimation of the attractors based on the diarization results of the previous iteration, and an adaptive attractor was then calculated by using transformer decoder blocks.
 
 In this project, the primary basis was the original Chainer implementation of [EEND](https://github.com/hitachi-speech/EEND) and the PyTorch implementation [EEND-Pytorch](https://github.com/Xflick/EEND_PyTorch).
 
