@@ -15,7 +15,7 @@ Building upon these pretrained models, we can proceed to train the proposed EEND
 
 ## Results
 
-We chose the DER results at the 2nd iteration step for further comparison with other different variants of the EEND.
+We choose the DER results at the 2nd iteration step for further comparison with other different variants of the EEND.
 
 | Method |  <br> $\beta = 2$ | Sim2spk <br> $\beta = 3$ |  <br> $\beta = 5$ | CALLHOME |
 |:-|:-:|:-:|:-:|:-:|
