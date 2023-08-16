@@ -37,11 +37,13 @@ We choose the DER results at the 2nd iteration step for further comparison with 
 ## Citation
 If you use our code in your research or wish to refer to the baseline results, please use the following BibTeX entry.
 ```
-@article{Hao2023NN,
-         title = {{End-to-End} Neural Speaker Diarization with an Iterative Adaptive Attractor Estimation},
+@article{hao2023nn,
+         title = {End-to-end neural speaker diarization with an iterative adaptive attractor estimation},
          journal = {Neural Networks},
          year = {2023},
-         doi = {Accepted},
+         issn = {0893-6080},
+         doi = {https://doi.org/10.1016/j.neunet.2023.07.043},
+         url = {https://www.sciencedirect.com/science/article/pii/S089360802300401X},
          author = {Fengyuan Hao and Xiaodong Li and Chengshi Zheng}
 }
 ```
