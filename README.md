@@ -40,6 +40,8 @@ If you use our code in your research or wish to refer to the baseline results, p
 @article{hao2023nn,
          title = {End-to-end neural speaker diarization with an iterative adaptive attractor estimation},
          journal = {Neural Networks},
+         volume = {166},
+         pages = {566-578},
          year = {2023},
          issn = {0893-6080},
          doi = {https://doi.org/10.1016/j.neunet.2023.07.043},
